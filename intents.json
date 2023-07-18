@@ -1,0 +1,348 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! Welcome to our restaurant Motimahal. How can I assist you today?",
+        "Hi! How may I help you?",
+        "Hey there! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "opening_hours",
+      "patterns": [
+        "What are your opening hours?",
+        "what are the timings?",
+        "what are your timings?",
+        "When do you open and close?",
+        "What time do you open and close?"
+      ],
+      "responses": [
+        "We are open from 11:00 AM to 11:00 PM every day of the week.",
+        "Our opening hours are from 11:00 AM to 11:00 PM."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Do you offer delivery services?",
+        "Can I get food delivered?",
+        "What is your delivery process?"
+      ],
+      "responses": [
+        "Yes, we offer delivery services. You can place an order online or call us on +91-2429343 for delivery.",
+        "We provide delivery services. You can order through our website or by phone on +91-2429343."
+      ]
+    },
+    {
+      "tag": "reviews",
+      "patterns": [
+        "What are your reviews like?",
+        "Can I see some customer reviews?",
+        "Tell me about the customer feedback."
+      ],
+      "responses": [
+        "We have received positive feedback from many customers. You can check out our reviews on platforms like Zomato, Swiggy or Google.",
+        "Our customers have shared great reviews about our food and service. Feel free to check them out on review platforms like Zomato, Swiggy or Google."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "How can I provide feedback?",
+        "I have some feedback for you.",
+        "Is there a way to leave feedback?"
+      ],
+      "responses": [
+        "We appreciate your feedback! You can leave your feedback on our website www.moti-mahal-feed-back.com or contact our customer support on +91-2429343.",
+        "Thank you for your feedback. You can share your thoughts through our website www.moti-mahal-feed-back.com or by contacting our team on +91-2429343."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Can you provide the status of my order?",
+        "Where is my food?",
+        "When will my order arrive?",
+        "I want to know my order status",
+        "How much time will it take for order to arrive?",
+        "When will order come?"
+      ],
+      "responses": [
+        "Sure, let me check the status of your order. www.moti-mahal-order.com Enter your order details here and you will get your order status.",
+        "I'll assist you to check the status of your order. www.moti-mahal-order.com Enter your order details here and you will get your order status."
+      ]
+    },
+    {
+      "tag": "takeaway",
+      "patterns": [
+        "Do you offer takeaway services?",
+        "Can I get food for takeaway?",
+        "I want to takeaway my order",
+        "Do you offer take away services?",
+        "Can I get food for take away?",
+        "I want to take away my order",
+        "Can I order food to go?"
+      ],
+      "responses": [
+        "Yes, we provide takeaway services. You can place your order on our website and pick it up from our restaurant.",
+        "Certainly! You can order food for takeaway. Just let us know your preferences, place your order on our website and we'll prepare it for you."
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What is on the menu?",
+        "Can you tell me about your dishes?",
+        "What cuisines do you offer?"
+      ],
+      "responses": [
+        "Our menu offers a variety of delicious dishes from various cuisines, including North-Indian, Mughlai, and Italian. To see the detailed menu visit our website www.moti-mahal.com",
+        "We have a diverse menu featuring dishes from different cuisines, such as North-Indian, Mughlai, and Italian."
+      ]
+    },
+    {
+      "tag": "prices",
+      "patterns": [
+        "How much does the food cost?",
+        "What are the prices?",
+        "Can you give me an idea of the pricing?"
+      ],
+      "responses": [
+        "Our menu prices range from 250 to 2000, depending on the dish you choose.",
+        "The prices of our dishes vary. You can find dishes ranging from 250 to 2000."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Do you offer any discounts?",
+        "Are there any ongoing promotions?",
+        "Can I get a discount on my order?"
+      ],
+      "responses": [
+        "Yes, we have special discounts and promotions from time to time. Stay tuned to our website or social media channels for updates.",
+        "We do offer discounts and promotions occasionally. Keep an eye on our website or follow us on social media for the latest offers."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Are there any upcoming events?",
+        "Do you organise events?",
+        "Do you have any events?",
+        "Do you host special events?",
+        "Tell me about your events and special occasions."
+      ],
+      "responses": [
+        "We often host special events and occasions. Stay connected with us on social media to know about our upcoming events.",
+        "Yes, we have exciting events planned throughout the year. Follow us on social media to stay updated on our events."
+      ]
+    },
+    {
+      "tag": "snacks_cocktails",
+      "patterns": [
+        "What snacks and cocktails do you offer?",
+        "What snacks do you offer?",
+        "What cocktails do you offer?",
+        "Can you recommend some snacks and cocktails?",
+        "Can you recommend some snacks?",
+        "Can you recommend some cocktails?",
+        "Tell me about your snack and cocktail options."
+      ],
+      "responses": [
+        "We have a variety of delicious snacks and cocktails on our menu. For snacks we have Nacho Chips with Cheese dips, Cheese Corn Balls, and Hara Bhara kebab. For cocktails, we offer classics like Passionfruit Martini, Sex on the Beach, and Manhattan. To check the detailed menu visit www.moti-mahal.com",
+        "Our snack menu includes options like Nacho Chips with Cheese dips, Cheese Corn Balls, and Hara Bhara kebab. For cocktails, we offer classics like Passionfruit Martini, Sex on the Beach, and Manhattan. To check the detailed menu visit www.moti-mahal.com"
+      ]
+    },
+    {
+      "tag": "table_reservation",
+      "patterns": [
+        "Can I make a table reservation?",
+        "How do I reserve a table?",
+        "Is it possible to book a table?"
+      ],
+      "responses": [
+        "Certainly! You can make a table reservation by visiting our website or calling us directly. Let us know the date, time, and number of guests while booking.",
+        "We accept table reservations. Please provide us with the date, time, and number of guests, and we'll make the reservation for you. You can make the reservation here www.moti-mahal-booking.com"
+      ]
+    },
+    {
+      "tag": "cancel_reservation",
+      "patterns": [
+        "I want to cancel my table reservation",
+        "How can I cancel a table reservation?",
+        "Can you assist with cancelling a reservation?",
+        "I want to cancel my table booking",
+        "How can I cancel a table booking?",
+        "Can you assist with cancelling a booking?"
+      ],
+      "responses": [
+        "Sure, we can help you cancel your table reservation. Please provide us with the details of your reservation, and we'll take care of it. You can make the cancellation here www.moti-mahal-booking.com",
+        "To cancel a table reservation, please provide us with the reservation details, and You can make the cancellation here www.moti-mahal-booking.com."
+      ]
+    },
+    {
+      "tag": "order_food",
+      "patterns": [
+        "How can I place an order?",
+        "Can I order food?",
+        "I'd like to place an order."
+      ],
+      "responses": [
+        "To place an order, you can either visit our website and use the online ordering system or call our hotline. Let us know your preferences, and we'll assist you with the order.",
+        "Certainly! You can place an order by visiting our website or contacting our team. Please let us know your preferences, and we'll guide you through the process."
+      ]
+    },
+    {
+      "tag": "reservation_preferences",
+      "patterns": [
+        "I have snack and cocktail preferences for my reservation",
+        "Can I customize my snack and cocktail choices for the reservation?",
+        "I'd like to specify my snack and cocktail preferences."
+      ],
+      "responses": [
+        "Noted! When making your reservation, please let us know your snack and cocktail preferences. We'll ensure they are considered for your reservation.",
+        "Certainly! Feel free to provide your snack and cocktail preferences while making the reservation. We'll do our best to accommodate your choices."
+      ]
+    },
+    {
+      "tag": "special_dietary_requirements",
+      "patterns": [
+        "Do you cater to special dietary requirements?",
+        "Are there options for vegetarians/vegans?",
+        "Can you accommodate food allergies?",
+        "I have gluten allergy",
+        "I am a vegeterian",
+        "I am a vegan"
+      ],
+      "responses": [
+        "Yes, we have options for various dietary requirements. Our menu includes vegetarian, vegan, and gluten-free dishes. Please let us know your specific requirements, when you visit and we'll assist you.",
+        "We understand the importance of catering to special dietary needs. Our menu offers vegetarian, vegan, and gluten-free options. Feel free to inform us about your dietary restrictions on your visit."
+      ]
+    },
+    {
+      "tag": "private_events",
+      "patterns": [
+        "Do you host private events?",
+        "Do you host birthdays?",
+        "Do you host anniversaries?",
+        "Do you host corporate gatherings?",
+        "Do you host celebrations?",
+        "Can I book your venue for a private event?",
+        "Tell me about hosting private parties."
+      ],
+      "responses": [
+        "Yes, we provide venue booking for private events such as birthdays, anniversaries, and corporate gatherings. Please contact our events team at +91-2429343 for more information.",
+        "We offer our venue for private events. Whether it's a birthday party, anniversary celebration, or a corporate event, our team can assist you. Reach out to us for further details."
+      ]
+    },
+    {
+      "tag": "chef_specials",
+      "patterns": [
+        "What are the chef's specials?",
+        "Do you have any recommended dishes?",
+        "What would you suggest from the menu?"
+      ],
+      "responses": [
+        "Our chef's specials change regularly, highlighting the finest seasonal ingredients. Please ask our staff for the current recommendations when you visit.",
+        "Our chef creates unique specials based on the freshest ingredients available. Feel free to ask our staff for the recommended dishes of the day."
+      ]
+    },
+    {
+      "tag": "kids_menu",
+      "patterns": [
+        "Do you have a kids' menu?",
+        "Are there options for children?",
+        "Can you suggest dishes for kids?"
+      ],
+      "responses": [
+        "Yes, we offer a kids' menu with a variety of child-friendly options. It includes dishes like Cheeseburger French Fries, Pizza Monkey Bread, and Eyeball Taco Salad.",
+        "We understand the preferences of our young guests. Our kids' menu features delicious and wholesome choices such as Cheeseburger French Fries, Pizza Monkey Bread, and Eyeball Taco Salad."
+      ]
+    },
+    {
+      "tag": "gift_cards",
+      "patterns": [
+        "Do you offer gift cards?",
+        "Can I purchase gift cards?",
+        "How can I buy a gift card?"
+      ],
+      "responses": [
+        "Yes, we offer gift cards that make perfect presents for food lovers. You can purchase them at our restaurant or through our website.",
+        "Gift cards are available for purchase. They are a great way to treat someone special. You can buy them at our restaurant or online."
+      ]
+    },
+    {
+      "tag": "live_music",
+      "patterns": [
+        "Do you have live music?",
+        "Are there any live performances?",
+        "Tell me about your live music events."
+      ],
+      "responses": [
+        "Yes, we occasionally host live music events featuring talented musicians. Stay updated with our social media or website to know about upcoming performances.",
+        "We believe in creating a vibrant ambiance. We have live music events on certain days. Follow our social media pages for information on upcoming performances."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "What is your website?",
+        "Do you have a website?",
+        "Can you share your website link?"
+      ],
+      "responses": [
+        "Sure! Our website is www.moti-mahal.com. You can find more information about our restaurant, menu, and services there.",
+        "Our website is www.moti-mahal.com. Feel free to visit it for details about our offerings, promotions, and more."
+      ]
+    },
+    {
+      "tag": "contact_number",
+      "patterns": [
+        "What is your contact number?",
+        "Can you provide your phone number?",
+        "How can I contact your restaurant?"
+      ],
+      "responses": [
+        "You can reach us at +91-2429343. Our team will be happy to assist you with any queries or reservations.",
+        "Our contact number is +91-2429343. Feel free to call us for any information or to make a reservation."
+      ]
+    }
+  ]
+}
